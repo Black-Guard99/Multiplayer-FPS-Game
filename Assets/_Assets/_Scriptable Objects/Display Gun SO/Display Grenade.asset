@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31882282d165a7b4eba2ae7f98626854, type: 3}
+  m_Name: Display Grenade
+  m_EditorClassIdentifier: 
+  gunSprite: {fileID: 21300000, guid: 8984b5604a85471419faeceb9da90e8f, type: 3}
+  gunName: Hand Grenade
+  displayPrefabs: {fileID: 8962940151894243901, guid: 84ee0f6b64fd7bc42a855624ca2c5117,
+    type: 3}
+  gunSo: {fileID: 11400000, guid: 51e63019d58f52f4a81e9294e5560f70, type: 2}

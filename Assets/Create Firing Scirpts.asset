@@ -1,0 +1,693 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0a89affcc32cc142ae531605f86bfbb, type: 3}
+  m_Name: Create Firing Scirpts
+  m_EditorClassIdentifier: 
+  snap: 1
+  snapSize: 30
+  snapColor: {r: 0, g: 0, b: 0, a: 0.1}
+  noteWindowRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1740
+    height: 1380
+  scrollPosition: {x: 573.3998, y: 0}
+  windows:
+  - className: Header-13672
+    type: 1
+    id: 13672
+    moveHandleActive: 0
+    sizeHandleActive: 0
+    arrowHandleActive: 0
+    rect:
+      serializedVersion: 2
+      x: 480
+      y: 0
+      width: 450
+      height: 90
+    windowMinSize: {x: 100, y: 30}
+    windowMaxSize: {x: 500, y: 100}
+    connects:
+    - id: 58489
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 130
+        width: 60
+        height: 40
+      moveHandleActive: 0
+      label: 0
+      startArrow: 0
+      endArrow: 1
+      labelText: 
+      offset: {x: 0, y: 0}
+    - id: 75010
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 130
+        width: 60
+        height: 40
+      moveHandleActive: 0
+      label: 0
+      startArrow: 0
+      endArrow: 1
+      labelText: 
+      offset: {x: 0, y: 0}
+    - id: 83143
+      rect:
+        serializedVersion: 2
+        x: 440.28
+        y: 93.46
+        width: 60
+        height: 40
+      moveHandleActive: 0
+      label: 0
+      startArrow: 0
+      endArrow: 1
+      labelText: 
+      offset: {x: 0, y: 0}
+    - id: 36430
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 174.5
+        width: 60
+        height: 40
+      moveHandleActive: 0
+      label: 0
+      startArrow: 0
+      endArrow: 1
+      labelText: 
+      offset: {x: 0, y: 0}
+    - id: 34696
+      rect:
+        serializedVersion: 2
+        x: 944.5
+        y: 36.229164
+        width: 60
+        height: 40
+      moveHandleActive: 0
+      label: 0
+      startArrow: 0
+      endArrow: 1
+      labelText: 
+      offset: {x: 0, y: 0}
+    header:
+      header: Today- To Do List
+      fontStyle: 1
+      fontSize: 20
+      fontColor: {r: 1, g: 1, b: 1, a: 1}
+      backgroundColor: {r: 0, g: 0, b: 0, a: 0.6745098}
+    textArea:
+      text: Text
+      fontStyle: 0
+      fontSize: 15
+      fontColor: {r: 1, g: 1, b: 1, a: 1}
+  - className: Header-58489
+    type: 1
+    id: 58489
+    moveHandleActive: 0
+    sizeHandleActive: 0
+    arrowHandleActive: 0
+    rect:
+      serializedVersion: 2
+      x: 780
+      y: 210
+      width: 90
+      height: 90
+    windowMinSize: {x: 100, y: 30}
+    windowMaxSize: {x: 500, y: 100}
+    connects:
+    - id: 36832
+      rect:
+        serializedVersion: 2
+        x: 854.53125
+        y: 212.67578
+        width: 60
+        height: 40
+      moveHandleActive: 0
+      label: 0
+      startArrow: 0
+      endArrow: 1
+      labelText: 
+      offset: {x: 0, y: 0}
+    - id: 86727
+      rect:
+        serializedVersion: 2
+        x: 861.3334
+        y: 309.625
+        width: 60
+        height: 40
+      moveHandleActive: 0
+      label: 0
+      startArrow: 0
+      endArrow: 1
+      labelText: 
+      offset: {x: 0, y: 0}
+    - id: 22788
+      rect:
+        serializedVersion: 2
+        x: 854.53125
+        y: 257.32422
+        width: 60
+        height: 40
+      moveHandleActive: 0
+      label: 0
+      startArrow: 0
+      endArrow: 1
+      labelText: 
+      offset: {x: 0, y: 0}
+    header:
+      header: Wepon Using Script
+      fontStyle: 0
+      fontSize: 15
+      fontColor: {r: 1, g: 1, b: 1, a: 1}
+      backgroundColor: {r: 0, g: 0, b: 0, a: 0.3}
+    textArea:
+      text: Text
+      fontStyle: 0
+      fontSize: 15
+      fontColor: {r: 1, g: 1, b: 1, a: 1}
+  - className: Header-36832
+    type: 1
+    id: 36832
+    moveHandleActive: 0
+    sizeHandleActive: 0
+    arrowHandleActive: 0
+    rect:
+      serializedVersion: 2
+      x: 900
+      y: 180
+      width: 90
+      height: 60
+    windowMinSize: {x: 100, y: 30}
+    windowMaxSize: {x: 500, y: 100}
+    connects: []
+    header:
+      header: Shooting Wepons
+      fontStyle: 1
+      fontSize: 15
+      fontColor: {r: 1, g: 1, b: 1, a: 1}
+      backgroundColor: {r: 1, g: 0, b: 0, a: 0.5058824}
+    textArea:
+      text: Text
+      fontStyle: 0
+      fontSize: 15
+      fontColor: {r: 1, g: 1, b: 1, a: 1}
+  - className: Header-86727
+    type: 1
+    id: 86727
+    moveHandleActive: 0
+    sizeHandleActive: 0
+    arrowHandleActive: 0
+    rect:
+      serializedVersion: 2
+      x: 900
+      y: 360
+      width: 90
+      height: 60
+    windowMinSize: {x: 100, y: 30}
+    windowMaxSize: {x: 500, y: 100}
+    connects: []
+    header:
+      header: Throwable Wepons
+      fontStyle: 1
+      fontSize: 15
+      fontColor: {r: 1, g: 1, b: 1, a: 1}
+      backgroundColor: {r: 0.47450984, g: 0.121568635, b: 0.121568635, a: 0.30588236}
+    textArea:
+      text: Text
+      fontStyle: 0
+      fontSize: 15
+      fontColor: {r: 1, g: 1, b: 1, a: 1}
+  - className: Header-22788
+    type: 1
+    id: 22788
+    moveHandleActive: 0
+    sizeHandleActive: 0
+    arrowHandleActive: 0
+    rect:
+      serializedVersion: 2
+      x: 900
+      y: 270
+      width: 90
+      height: 60
+    windowMinSize: {x: 100, y: 30}
+    windowMaxSize: {x: 500, y: 100}
+    connects: []
+    header:
+      header: Mele Wepons
+      fontStyle: 1
+      fontSize: 15
+      fontColor: {r: 1, g: 1, b: 1, a: 1}
+      backgroundColor: {r: 0, g: 0, b: 0, a: 0.3}
+    textArea:
+      text: Text
+      fontStyle: 0
+      fontSize: 15
+      fontColor: {r: 1, g: 1, b: 1, a: 1}
+  - className: Header-75010
+    type: 1
+    id: 75010
+    moveHandleActive: 0
+    sizeHandleActive: 0
+    arrowHandleActive: 0
+    rect:
+      serializedVersion: 2
+      x: 480
+      y: 210
+      width: 90
+      height: 90
+    windowMinSize: {x: 100, y: 30}
+    windowMaxSize: {x: 500, y: 100}
+    connects:
+    - id: 89638
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 294.5
+        width: 60
+        height: 40
+      moveHandleActive: 0
+      label: 0
+      startArrow: 0
+      endArrow: 1
+      labelText: 
+      offset: {x: 0, y: 0}
+    - id: 85367
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 250
+        width: 60
+        height: 40
+      moveHandleActive: 0
+      label: 0
+      startArrow: 0
+      endArrow: 1
+      labelText: 
+      offset: {x: 0, y: 0}
+    header:
+      header: Hit Detection
+      fontStyle: 0
+      fontSize: 15
+      fontColor: {r: 1, g: 1, b: 1, a: 1}
+      backgroundColor: {r: 0, g: 0, b: 0, a: 0.3}
+    textArea:
+      text: Text
+      fontStyle: 0
+      fontSize: 15
+      fontColor: {r: 1, g: 1, b: 1, a: 1}
+  - className: TextArea-89638
+    type: 2
+    id: 89638
+    moveHandleActive: 0
+    sizeHandleActive: 0
+    arrowHandleActive: 0
+    rect:
+      serializedVersion: 2
+      x: 480
+      y: 330
+      width: 90
+      height: 750
+    windowMinSize: {x: 100, y: 50}
+    windowMaxSize: {x: 0, y: 0}
+    connects: []
+    header:
+      header: Header
+      fontStyle: 0
+      fontSize: 15
+      fontColor: {r: 1, g: 1, b: 1, a: 1}
+      backgroundColor: {r: 0, g: 0, b: 0, a: 0.3}
+    textArea:
+      text: "Note\n\n1. Seperate Layer for Hit. Detection for Body.\n\n2. Each Body
+        Part Should have a Script (Hit Target)\n\n3. Hit Target Deriving for ITarget
+        interface \n\n4. Hit Target Transfer Damage As per hitting Area.\n\n5. Setup
+        Ragdoll system.\n\n6. Start Ragdoll on Player Death.\n\n7 . Check for Firendly
+        \nFire"
+      fontStyle: 0
+      fontSize: 15
+      fontColor: {r: 1, g: 1, b: 1, a: 1}
+  - className: Header-85367
+    type: 1
+    id: 85367
+    moveHandleActive: 0
+    sizeHandleActive: 0
+    arrowHandleActive: 0
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 240
+      width: 90
+      height: 90
+    windowMinSize: {x: 100, y: 30}
+    windowMaxSize: {x: 500, y: 100}
+    connects: []
+    header:
+      header: Add Wepon Sway
+      fontStyle: 0
+      fontSize: 15
+      fontColor: {r: 1, g: 1, b: 1, a: 1}
+      backgroundColor: {r: 0, g: 0, b: 0, a: 0.3}
+    textArea:
+      text: Text
+      fontStyle: 0
+      fontSize: 15
+      fontColor: {r: 1, g: 1, b: 1, a: 1}
+  - className: Header-83143
+    type: 1
+    id: 83143
+    moveHandleActive: 0
+    sizeHandleActive: 0
+    arrowHandleActive: 0
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 120
+      width: 90
+      height: 60
+    windowMinSize: {x: 100, y: 30}
+    windowMaxSize: {x: 500, y: 100}
+    connects:
+    - id: 85367
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 189.5
+        width: 60
+        height: 40
+      moveHandleActive: 0
+      label: 0
+      startArrow: 0
+      endArrow: 1
+      labelText: 
+      offset: {x: 0, y: 0}
+    header:
+      header: Wepon System
+      fontStyle: 0
+      fontSize: 15
+      fontColor: {r: 1, g: 1, b: 1, a: 1}
+      backgroundColor: {r: 0, g: 0, b: 0, a: 0.3}
+    textArea:
+      text: Text
+      fontStyle: 0
+      fontSize: 15
+      fontColor: {r: 1, g: 1, b: 1, a: 1}
+  - className: TextArea-36430
+    type: 2
+    id: 36430
+    moveHandleActive: 0
+    sizeHandleActive: 0
+    arrowHandleActive: 0
+    rect:
+      serializedVersion: 2
+      x: 660
+      y: 300
+      width: 90
+      height: 300
+    windowMinSize: {x: 100, y: 50}
+    windowMaxSize: {x: 0, y: 0}
+    connects: []
+    header:
+      header: Header
+      fontStyle: 0
+      fontSize: 15
+      fontColor: {r: 1, g: 1, b: 1, a: 1}
+      backgroundColor: {r: 0, g: 0, b: 0, a: 0.3}
+    textArea:
+      text: 'Reset Leaning Slider value After Removeing the Finger or Exiting aiming.
+        Done  '
+      fontStyle: 0
+      fontSize: 15
+      fontColor: {r: 1, g: 1, b: 1, a: 1}
+  - className: Header-34696
+    type: 1
+    id: 34696
+    moveHandleActive: 0
+    sizeHandleActive: 0
+    arrowHandleActive: 0
+    rect:
+      serializedVersion: 2
+      x: 1020
+      y: 30
+      width: 90
+      height: 60
+    windowMinSize: {x: 100, y: 30}
+    windowMaxSize: {x: 500, y: 100}
+    connects:
+    - id: 19943
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 62.5
+        width: 60
+        height: 40
+      moveHandleActive: 0
+      label: 0
+      startArrow: 0
+      endArrow: 1
+      labelText: 
+      offset: {x: 0, y: 0}
+    - id: 84188
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 99.5
+        width: 60
+        height: 40
+      moveHandleActive: 0
+      label: 0
+      startArrow: 0
+      endArrow: 1
+      labelText: 
+      offset: {x: 0, y: 0}
+    header:
+      header: Crosshair
+      fontStyle: 3
+      fontSize: 15
+      fontColor: {r: 1, g: 1, b: 1, a: 1}
+      backgroundColor: {r: 0, g: 0, b: 0, a: 0.3}
+    textArea:
+      text: Text
+      fontStyle: 0
+      fontSize: 15
+      fontColor: {r: 1, g: 1, b: 1, a: 1}
+  - className: Header-19943
+    type: 1
+    id: 19943
+    moveHandleActive: 0
+    sizeHandleActive: 0
+    arrowHandleActive: 0
+    rect:
+      serializedVersion: 2
+      x: 1200
+      y: 90
+      width: 90
+      height: 30
+    windowMinSize: {x: 100, y: 30}
+    windowMaxSize: {x: 500, y: 100}
+    connects:
+    - id: 79175
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 130
+        width: 60
+        height: 40
+      moveHandleActive: 0
+      label: 0
+      startArrow: 0
+      endArrow: 1
+      labelText: 
+      offset: {x: 0, y: 0}
+    - id: 59840
+      rect:
+        serializedVersion: 2
+        x: 1275.8209
+        y: 139.7388
+        width: 60
+        height: 40
+      moveHandleActive: 0
+      label: 0
+      startArrow: 0
+      endArrow: 1
+      labelText: 
+      offset: {x: 0, y: 0}
+    header:
+      header: Movement
+      fontStyle: 0
+      fontSize: 15
+      fontColor: {r: 1, g: 1, b: 1, a: 1}
+      backgroundColor: {r: 0, g: 0, b: 0, a: 0.3}
+    textArea:
+      text: Text
+      fontStyle: 0
+      fontSize: 15
+      fontColor: {r: 1, g: 1, b: 1, a: 1}
+  - className: TextArea-79175
+    type: 2
+    id: 79175
+    moveHandleActive: 0
+    sizeHandleActive: 0
+    arrowHandleActive: 0
+    rect:
+      serializedVersion: 2
+      x: 1230
+      y: 180
+      width: 90
+      height: 120
+    windowMinSize: {x: 100, y: 50}
+    windowMaxSize: {x: 0, y: 0}
+    connects: []
+    header:
+      header: Header
+      fontStyle: 0
+      fontSize: 15
+      fontColor: {r: 1, g: 1, b: 1, a: 1}
+      backgroundColor: {r: 0, g: 0, b: 0, a: 0.3}
+    textArea:
+      text: Expand On Walking to 0.5f and Running = 1f
+      fontStyle: 0
+      fontSize: 15
+      fontColor: {r: 1, g: 1, b: 1, a: 1}
+  - className: TextArea-59840
+    type: 2
+    id: 59840
+    moveHandleActive: 0
+    sizeHandleActive: 0
+    arrowHandleActive: 0
+    rect:
+      serializedVersion: 2
+      x: 1350
+      y: 180
+      width: 90
+      height: 120
+    windowMinSize: {x: 100, y: 50}
+    windowMaxSize: {x: 0, y: 0}
+    connects: []
+    header:
+      header: Header
+      fontStyle: 0
+      fontSize: 15
+      fontColor: {r: 1, g: 1, b: 1, a: 1}
+      backgroundColor: {r: 0, g: 0, b: 0, a: 0.3}
+    textArea:
+      text: Mouse Movement Expand to 1f
+      fontStyle: 0
+      fontSize: 15
+      fontColor: {r: 1, g: 1, b: 1, a: 1}
+  - className: Header-84188
+    type: 1
+    id: 84188
+    moveHandleActive: 0
+    sizeHandleActive: 0
+    arrowHandleActive: 0
+    rect:
+      serializedVersion: 2
+      x: 1020
+      y: 150
+      width: 90
+      height: 30
+    windowMinSize: {x: 100, y: 30}
+    windowMaxSize: {x: 500, y: 100}
+    connects:
+    - id: 57543
+      rect:
+        serializedVersion: 2
+        x: 1073.4783
+        y: 189.8913
+        width: 60
+        height: 40
+      moveHandleActive: 0
+      label: 0
+      startArrow: 0
+      endArrow: 1
+      labelText: 
+      offset: {x: 0, y: 0}
+    - id: 35756
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 189.5
+        width: 60
+        height: 40
+      moveHandleActive: 0
+      label: 0
+      startArrow: 0
+      endArrow: 1
+      labelText: 
+      offset: {x: 0, y: 0}
+    header:
+      header: Effects
+      fontStyle: 3
+      fontSize: 15
+      fontColor: {r: 1, g: 0.81304514, b: 0.22075468, a: 1}
+      backgroundColor: {r: 0, g: 0, b: 0, a: 0.3}
+    textArea:
+      text: Text
+      fontStyle: 0
+      fontSize: 15
+      fontColor: {r: 1, g: 1, b: 1, a: 1}
+  - className: Header-57543
+    type: 1
+    id: 57543
+    moveHandleActive: 0
+    sizeHandleActive: 0
+    arrowHandleActive: 0
+    rect:
+      serializedVersion: 2
+      x: 1110
+      y: 240
+      width: 90
+      height: 60
+    windowMinSize: {x: 100, y: 30}
+    windowMaxSize: {x: 500, y: 100}
+    connects: []
+    header:
+      header: HeadShot
+      fontStyle: 1
+      fontSize: 15
+      fontColor: {r: 1, g: 0.20628706, b: 0.058823526, a: 1}
+      backgroundColor: {r: 0, g: 0, b: 0, a: 0.3}
+    textArea:
+      text: Text
+      fontStyle: 0
+      fontSize: 15
+      fontColor: {r: 1, g: 1, b: 1, a: 1}
+  - className: Header-35756
+    type: 1
+    id: 35756
+    moveHandleActive: 0
+    sizeHandleActive: 0
+    arrowHandleActive: 0
+    rect:
+      serializedVersion: 2
+      x: 1020
+      y: 240
+      width: 90
+      height: 30
+    windowMinSize: {x: 100, y: 30}
+    windowMaxSize: {x: 500, y: 100}
+    connects: []
+    header:
+      header: Body Shot
+      fontStyle: 0
+      fontSize: 15
+      fontColor: {r: 0.10551792, g: 0.7190877, b: 0.9811321, a: 1}
+      backgroundColor: {r: 0, g: 0, b: 0, a: 0.3}
+    textArea:
+      text: Text
+      fontStyle: 0
+      fontSize: 15
+      fontColor: {r: 1, g: 1, b: 1, a: 1}

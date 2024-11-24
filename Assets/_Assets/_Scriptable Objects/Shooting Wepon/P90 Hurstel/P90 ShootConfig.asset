@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3825aafd8a5674428385161012d9dd8, type: 3}
+  m_Name: P90 ShootConfig
+  m_EditorClassIdentifier: 
+  canAim: 1
+  hitMask:
+    serializedVersion: 2
+    m_Bits: 320
+  spread: {x: 0.01, y: 0.01, z: 0}
+  shootRange: {fileID: 11400000, guid: 40ae100a3c962804da9a46c7c5c91c32, type: 2}
+  fireRate: {fileID: 11400000, guid: 1e6e6681791e35844808c07f51965aa6, type: 2}
+  gravity: 1
+  shellEjectionForce: 12
+  bulletPoolName: {fileID: 11400000, guid: 41e789b1e8705d644968e0225df60bad, type: 2}
+  casing: {fileID: 11400000, guid: e087f63f755bbda4a965c26e74cd1249, type: 2}
+  damageConfig: {fileID: 11400000, guid: cac4e4ed7b4c0744ab1d63c92b525fa9, type: 2}
+  gunShootingMode: 1
+  recoilConfig: {fileID: 11400000, guid: 9dab7391791c0b74895c66dfecad418d, type: 2}
+  aimScreenShakeProperties: {fileID: 11400000, guid: 73cb48482ad22f1499195536e1da70dc,
+    type: 2}
+  nonScreenShakeProperties: {fileID: 11400000, guid: 506eaa46eb448cc45bec0178f84e0b7c,
+    type: 2}

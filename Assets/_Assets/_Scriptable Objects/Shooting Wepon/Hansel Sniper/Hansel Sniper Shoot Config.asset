@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3825aafd8a5674428385161012d9dd8, type: 3}
+  m_Name: Hansel Sniper Shoot Config
+  m_EditorClassIdentifier: 
+  canAim: 1
+  hitMask:
+    serializedVersion: 2
+    m_Bits: 320
+  spread: {x: 0, y: 0, z: 0}
+  shootRange: {fileID: 11400000, guid: 623c708f966b425499707d580fb0b61b, type: 2}
+  fireRate: {fileID: 11400000, guid: 10f458bed9453ce40b2aa150168074f2, type: 2}
+  gravity: 1
+  shellEjectionForce: 2
+  bulletPoolName: {fileID: 11400000, guid: 41e789b1e8705d644968e0225df60bad, type: 2}
+  casing: {fileID: 11400000, guid: c217ff443c45fc84f9d0525225e09463, type: 2}
+  damageConfig: {fileID: 11400000, guid: f6363f546b6214d448d81a646394f76d, type: 2}
+  gunShootingMode: 0
+  recoilConfig: {fileID: 11400000, guid: 455f6e20d74f06a4da093e16b9512145, type: 2}
+  aimScreenShakeProperties: {fileID: 11400000, guid: f19f61ab168284e4b9a8584747d5c12f,
+    type: 2}
+  nonScreenShakeProperties: {fileID: 11400000, guid: f19f61ab168284e4b9a8584747d5c12f,
+    type: 2}

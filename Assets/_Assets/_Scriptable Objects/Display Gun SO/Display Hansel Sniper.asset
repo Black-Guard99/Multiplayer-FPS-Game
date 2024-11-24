@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31882282d165a7b4eba2ae7f98626854, type: 3}
+  m_Name: Display Hansel Sniper
+  m_EditorClassIdentifier: 
+  gunSprite: {fileID: 21300000, guid: 81e6cc5a4f13c054bb9c6383e5431302, type: 3}
+  gunName: Hansel 2987
+  displayPrefabs: {fileID: 345557416089020297, guid: 17fb50df484c89c4f97e9995da5bd820,
+    type: 3}
+  gunSo: {fileID: 11400000, guid: 8cf24ea4c969e0f4a8e8ef8bec5c5e40, type: 2}

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31882282d165a7b4eba2ae7f98626854, type: 3}
+  m_Name: Display Tavor - 22
+  m_EditorClassIdentifier: 
+  gunSprite: {fileID: 21300000, guid: 4ca239f3c455feb44bd8931f853c13b5, type: 3}
+  gunName: Tavor -22
+  displayPrefabs: {fileID: 8761189365596105862, guid: 99ef062bb3d27d34ab8e4228e3ba4fd6,
+    type: 3}
+  gunSo: {fileID: 11400000, guid: 11f5b68c96e37534fbd10ab300859319, type: 2}

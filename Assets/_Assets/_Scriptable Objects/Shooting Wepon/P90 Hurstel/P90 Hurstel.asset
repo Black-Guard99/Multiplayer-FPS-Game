@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0509bbac517206944be167ad75db2a10, type: 3}
+  m_Name: P90 Hurstel
+  m_EditorClassIdentifier: 
+  gunModel: {fileID: 475894354, guid: 247c5b176ade8f6449bd0a242ff3e076, type: 3}
+  weponUiIcon: {fileID: 21300000, guid: 15311c7c23a6d1543ad96efe8d85989f, type: 3}
+  ammoConfig: {fileID: 11400000, guid: be2d96b103cc79f488da575f9137561f, type: 2}
+  trailConfig: {fileID: 11400000, guid: 33ddf2c6c32001542aa0e1207e5d5fd6, type: 2}
+  shootConfig: {fileID: 11400000, guid: 231c8a8d2d564a14b8acc959f3a76fb0, type: 2}
+  attachmentConfig: {fileID: 11400000, guid: bd4f621af2e1496498dc20566bdf74b1, type: 2}
+  gunType: 0
+  weponPositions: 0
+  spawnPointOffset: {x: 0, y: 0.157, z: 0}
+  playerProfile:
+    username: abhi_234
+    level: 1
+    xp: 0
+    gunName: P90 Hurstel
+  accuracyStat: {fileID: 11400000, guid: 5d327d7469fe6dc489415e0402c1921e, type: 2}
+  isSelected: 1

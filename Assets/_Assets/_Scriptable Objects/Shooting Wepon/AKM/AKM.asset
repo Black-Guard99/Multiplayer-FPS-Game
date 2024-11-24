@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0509bbac517206944be167ad75db2a10, type: 3}
+  m_Name: AKM
+  m_EditorClassIdentifier: 
+  gunModel: {fileID: 75123253, guid: fff1c19c80840d94c932697c963701ce, type: 3}
+  weponUiIcon: {fileID: 21300000, guid: 74bf7df38adeeab4891a10bcf11ac941, type: 3}
+  ammoConfig: {fileID: 11400000, guid: 09b38362e7a50f045bafb42b4e113b20, type: 2}
+  trailConfig: {fileID: 11400000, guid: 33ddf2c6c32001542aa0e1207e5d5fd6, type: 2}
+  shootConfig: {fileID: 11400000, guid: 5f8bd8273e248284799f0a75e56b02c4, type: 2}
+  attachmentConfig: {fileID: 11400000, guid: 91364a102cefedb499b01a890feb1265, type: 2}
+  gunType: 0
+  spawnPointOffset: {x: 0, y: 0.091, z: -0.003}
+  playerProfile:
+    username: Sam_1
+    level: 1
+    xp: 0
+    gunName: 0
+  accuracyStat: {fileID: 11400000, guid: b764813455856504a8062c848425dffd, type: 2}

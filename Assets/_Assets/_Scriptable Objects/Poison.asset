@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e4ed679a06f1694d8caf21d83f9f1a7, type: 3}
+  m_Name: Poison
+  m_EditorClassIdentifier: 
+  gunModel: {fileID: 2516832569891153092, guid: 49ef719f3777d5344b20b27180d3bf8e,
+    type: 3}
+  weponUiIcon: {fileID: 21300000, guid: e10be7f691fb353428685c09b11181dd, type: 3}
+  ammoConfig: {fileID: 11400000, guid: 1d55b1c77c6aaa04a84423f7c44ceb3a, type: 2}
+  trailConfig: {fileID: 11400000, guid: 33ddf2c6c32001542aa0e1207e5d5fd6, type: 2}
+  shootConfig: {fileID: 11400000, guid: df7406356024779449d996a90687d208, type: 2}
+  attachmentConfig: {fileID: 0}
+  gunType: 2
+  weponPositions: 3
+  spawnPointOffset: {x: 0, y: 0.138, z: -0.037}
+  playerProfile:
+    username: abhi_234
+    level: 1
+    xp: 0
+    gunName: Poison
+  accuracyStat: {fileID: 11400000, guid: 2f48d97a9e2281042ac680b3c91a06bc, type: 2}
+  mass: 1
+  drag: 0.06
+  maxCookingTime: 5
+  force: 30
+  throwable: {fileID: -6022365278070868260, guid: 2c94e7724fbc79e4980fc1ed82d69d89,
+    type: 3}
+  currentThrowableType: 3

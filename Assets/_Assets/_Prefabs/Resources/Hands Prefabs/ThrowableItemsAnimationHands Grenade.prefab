@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3887620599134328060
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1440145026037765635, guid: d8aede6874663df46a866f1832627c76,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1440145026037765635, guid: d8aede6874663df46a866f1832627c76,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1440145026037765635, guid: d8aede6874663df46a866f1832627c76,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.138
+      objectReference: {fileID: 0}
+    - target: {fileID: 1440145026037765635, guid: d8aede6874663df46a866f1832627c76,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.037
+      objectReference: {fileID: 0}
+    - target: {fileID: 1440145026037765635, guid: d8aede6874663df46a866f1832627c76,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.707015
+      objectReference: {fileID: 0}
+    - target: {fileID: 1440145026037765635, guid: d8aede6874663df46a866f1832627c76,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.01139275
+      objectReference: {fileID: 0}
+    - target: {fileID: 1440145026037765635, guid: d8aede6874663df46a866f1832627c76,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7070151
+      objectReference: {fileID: 0}
+    - target: {fileID: 1440145026037765635, guid: d8aede6874663df46a866f1832627c76,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.011392742
+      objectReference: {fileID: 0}
+    - target: {fileID: 1440145026037765635, guid: d8aede6874663df46a866f1832627c76,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1440145026037765635, guid: d8aede6874663df46a866f1832627c76,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1440145026037765635, guid: d8aede6874663df46a866f1832627c76,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1574800321882928370, guid: d8aede6874663df46a866f1832627c76,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1686018321373724680, guid: d8aede6874663df46a866f1832627c76,
+        type: 3}
+      propertyPath: gun
+      value: 
+      objectReference: {fileID: 11400000, guid: 51e63019d58f52f4a81e9294e5560f70,
+        type: 2}
+    - target: {fileID: 1686018321373724680, guid: d8aede6874663df46a866f1832627c76,
+        type: 3}
+      propertyPath: model
+      value: 
+      objectReference: {fileID: 2372186587101559474}
+    - target: {fileID: 1686018321373724680, guid: d8aede6874663df46a866f1832627c76,
+        type: 3}
+      propertyPath: weponType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1781099889862020281, guid: d8aede6874663df46a866f1832627c76,
+        type: 3}
+      propertyPath: m_Name
+      value: ThrowableItemsAnimationHands Grenade
+      objectReference: {fileID: 0}
+    - target: {fileID: 2484718808989266576, guid: d8aede6874663df46a866f1832627c76,
+        type: 3}
+      propertyPath: throwableSo
+      value: 
+      objectReference: {fileID: 11400000, guid: 51e63019d58f52f4a81e9294e5560f70,
+        type: 2}
+    - target: {fileID: 3737823074270008874, guid: d8aede6874663df46a866f1832627c76,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d8aede6874663df46a866f1832627c76, type: 3}
+--- !u!1 &2372186587101559474 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1520010467761122894, guid: d8aede6874663df46a866f1832627c76,
+    type: 3}
+  m_PrefabInstance: {fileID: 3887620599134328060}
+  m_PrefabAsset: {fileID: 0}

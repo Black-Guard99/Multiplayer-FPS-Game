@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3825aafd8a5674428385161012d9dd8, type: 3}
+  m_Name: Revolver Shootconfig
+  m_EditorClassIdentifier: 
+  canAim: 1
+  hitMask:
+    serializedVersion: 2
+    m_Bits: 320
+  spread: {x: 0.03, y: 0.03, z: 0}
+  shootRange: {fileID: 11400000, guid: 7648a20774bf6414cad037a39a3be067, type: 2}
+  fireRate: {fileID: 11400000, guid: d4ce278555d37a7459afb6f3e67d24f9, type: 2}
+  gravity: 3
+  shellEjectionForce: 1.27
+  bulletPoolName: {fileID: 11400000, guid: 41e789b1e8705d644968e0225df60bad, type: 2}
+  casing: {fileID: 11400000, guid: e087f63f755bbda4a965c26e74cd1249, type: 2}
+  damageConfig: {fileID: 11400000, guid: 1192b939f69f3ba4596cffc969efe811, type: 2}
+  gunShootingMode: 0
+  recoilConfig: {fileID: 11400000, guid: 07c9b5e41d04258479f2a1c957999b8d, type: 2}
+  aimScreenShakeProperties: {fileID: 11400000, guid: 40950ee24c8eda84ab8d368ec7e31b1c,
+    type: 2}
+  nonScreenShakeProperties: {fileID: 11400000, guid: 40950ee24c8eda84ab8d368ec7e31b1c,
+    type: 2}

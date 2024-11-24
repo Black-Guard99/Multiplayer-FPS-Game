@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3825aafd8a5674428385161012d9dd8, type: 3}
+  m_Name: Poison Grenade ShootConfig
+  m_EditorClassIdentifier: 
+  canAim: 0
+  hitMask:
+    serializedVersion: 2
+    m_Bits: 320
+  spread: {x: 0, y: 0, z: 0}
+  shootRange: {fileID: 11400000, guid: 75ee1df2712ae7548843fb1029c3134b, type: 2}
+  fireRate: {fileID: 11400000, guid: e8e9c05488d0018488d1f56e09fcd4ef, type: 2}
+  gravity: 9.5
+  shellEjectionForce: 5
+  bulletPoolName: {fileID: 11400000, guid: 7ff1275564ab1104e9ea33cb19422f1a, type: 2}
+  casing: {fileID: 0}
+  damageConfig: {fileID: 11400000, guid: 8e82ec2582f7bf24cb919e66459d30aa, type: 2}
+  gunShootingMode: 2
+  recoilConfig: {fileID: 11400000, guid: 768ae7b02d24f004dbaf9e9261e1b363, type: 2}
+  aimScreenShakeProperties: {fileID: 11400000, guid: bff4f2cbd2f05cf4cbfb8f5b0cb5842f,
+    type: 2}
+  nonScreenShakeProperties: {fileID: 11400000, guid: bff4f2cbd2f05cf4cbfb8f5b0cb5842f,
+    type: 2}

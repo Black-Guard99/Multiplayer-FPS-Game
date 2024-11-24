@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eceeec7a5a3576b4b83b35f3b306d589, type: 3}
+  m_Name: Loadout 4
+  m_EditorClassIdentifier: 
+  isActiveLoadout: 0
+  primaryGunAttachments:
+    gunCurrent: {fileID: 11400000, guid: a8edfadd284148648a9511dc8b56b78a, type: 2}
+    currentAttachmetScopeType: 0
+    currentAttachmetMuzzelType: 0
+    currentAttachmetMagzineType: 0
+    currentAttachmetStockType: 0
+    currentAttachmetBarrelsType: 0
+  secondaryGunAttachments:
+    gunCurrent: {fileID: 11400000, guid: c24c68ac3387fd145b972d8563bb994c, type: 2}
+    currentAttachmetScopeType: 0
+    currentAttachmetMuzzelType: 0
+    currentAttachmetMagzineType: 0
+    currentAttachmetStockType: 0
+    currentAttachmetBarrelsType: 0
+  meleWeaponAttachments:
+    gunCurrent: {fileID: 11400000, guid: 415951eff8a570848bcc5fb52fc2c725, type: 2}
+    currentAttachmetScopeType: 0
+    currentAttachmetMuzzelType: 0
+    currentAttachmetMagzineType: 0
+    currentAttachmetStockType: 0
+    currentAttachmetBarrelsType: 0
+  lethalThrowabl:
+    gunCurrent: {fileID: 11400000, guid: 1d4d6ee1f5a0c0e4eaf138d1e356e50f, type: 2}
+    currentAttachmetScopeType: 0
+    currentAttachmetMuzzelType: 0
+    currentAttachmetMagzineType: 0
+    currentAttachmetStockType: 0
+    currentAttachmetBarrelsType: 0
+  nonLethalThrowabl:
+    gunCurrent: {fileID: 11400000, guid: bd09c3d9dc84de240b9a10d47efcd6bb, type: 2}
+    currentAttachmetScopeType: 0
+    currentAttachmetMuzzelType: 0
+    currentAttachmetMagzineType: 0
+    currentAttachmetStockType: 0
+    currentAttachmetBarrelsType: 0

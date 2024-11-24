@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0509bbac517206944be167ad75db2a10, type: 3}
+  m_Name: K-Bar
+  m_EditorClassIdentifier: 
+  gunModel: {fileID: 302448429, guid: 1fcc377f3ff6f634ab4426174673ecdf, type: 3}
+  weponUiIcon: {fileID: 21300000, guid: 0303477b28e4bd446858e8b6216b3835, type: 3}
+  ammoConfig: {fileID: 11400000, guid: 240073af067ae5a4093935c821ca0a08, type: 2}
+  trailConfig: {fileID: 11400000, guid: 33ddf2c6c32001542aa0e1207e5d5fd6, type: 2}
+  shootConfig: {fileID: 11400000, guid: 826d12bbf4ab967409d43d81d399f34f, type: 2}
+  attachmentConfig: {fileID: 11400000, guid: b14afd4682fe0d845aa48252d06bba55, type: 2}
+  gunType: 1
+  weponPositions: 2
+  spawnPointOffset: {x: 0, y: 0.198, z: 0}
+  playerProfile:
+    username: abhi_234
+    level: 1
+    xp: 0
+    gunName: 
+  accuracyStat: {fileID: 11400000, guid: 4849de2979c235d4188b1cc5b1fa1ac9, type: 2}
+  isSelected: 1

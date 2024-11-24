@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3825aafd8a5674428385161012d9dd8, type: 3}
+  m_Name: Sniper Shoot Config
+  m_EditorClassIdentifier: 
+  canAim: 1
+  hitMask:
+    serializedVersion: 2
+    m_Bits: 320
+  spread: {x: 0, y: 0, z: 0}
+  shootRange: {fileID: 11400000, guid: 411f49ae6a39f5f448a7006414f31778, type: 2}
+  fireRate: {fileID: 11400000, guid: 7d3826b54323a0d45b3253c011fe50ef, type: 2}
+  gravity: 1.7
+  shellEjectionForce: 2
+  bulletPoolName: {fileID: 11400000, guid: 41e789b1e8705d644968e0225df60bad, type: 2}
+  casing: {fileID: 11400000, guid: c217ff443c45fc84f9d0525225e09463, type: 2}
+  damageConfig: {fileID: 11400000, guid: 70918ef029046ee4a822e00093128c7f, type: 2}
+  gunShootingMode: 0
+  recoilConfig: {fileID: 11400000, guid: 6277591eb37b9684aba5d1830fd42a2e, type: 2}
+  aimScreenShakeProperties: {fileID: 11400000, guid: 838f3d7f06946a64998be41f4993720a,
+    type: 2}
+  nonScreenShakeProperties: {fileID: 11400000, guid: 838f3d7f06946a64998be41f4993720a,
+    type: 2}

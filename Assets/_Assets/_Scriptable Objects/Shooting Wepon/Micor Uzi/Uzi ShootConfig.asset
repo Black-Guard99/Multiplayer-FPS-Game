@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3825aafd8a5674428385161012d9dd8, type: 3}
+  m_Name: Uzi ShootConfig
+  m_EditorClassIdentifier: 
+  canAim: 1
+  hitMask:
+    serializedVersion: 2
+    m_Bits: 320
+  spread: {x: 0.1, y: 0.1, z: 0}
+  shootRange: {fileID: 11400000, guid: 220ddea51e897d14c9b61cf007b96e8a, type: 2}
+  fireRate: {fileID: 11400000, guid: 342014dc08b4ca247925d62cc0c6c9c1, type: 2}
+  gravity: 2
+  shellEjectionForce: 12
+  bulletPoolName: {fileID: 11400000, guid: 41e789b1e8705d644968e0225df60bad, type: 2}
+  casing: {fileID: 11400000, guid: c217ff443c45fc84f9d0525225e09463, type: 2}
+  damageConfig: {fileID: 11400000, guid: 41d330203e335e247b9d414629d96075, type: 2}
+  gunShootingMode: 1
+  recoilConfig: {fileID: 11400000, guid: 2e314202417d7f8439a0753b2664b897, type: 2}
+  aimScreenShakeProperties: {fileID: 11400000, guid: e4702b33b7db0494e8c6ebabaa4422d0,
+    type: 2}
+  nonScreenShakeProperties: {fileID: 11400000, guid: 6c4fc1c1af9e33b4a8fbf113bdfa526d,
+    type: 2}

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3825aafd8a5674428385161012d9dd8, type: 3}
+  m_Name: Shotgun ShootConfig
+  m_EditorClassIdentifier: 
+  canAim: 1
+  hitMask:
+    serializedVersion: 2
+    m_Bits: 320
+  spread: {x: 1.5, y: 1.5, z: 0}
+  shootRange: {fileID: 11400000, guid: a42fd78639aea0048a8b25e97f39aadf, type: 2}
+  fireRate: {fileID: 11400000, guid: 8cd2cb3d16a92b449a7279189672ec5d, type: 2}
+  gravity: 3.23
+  shellEjectionForce: 2
+  bulletPoolName: {fileID: 11400000, guid: 41e789b1e8705d644968e0225df60bad, type: 2}
+  casing: {fileID: 11400000, guid: 77d9d88f9366ad74d92d612312f38808, type: 2}
+  damageConfig: {fileID: 11400000, guid: b812f9ab556b12c46a7ba42870f4dec8, type: 2}
+  gunShootingMode: 3
+  recoilConfig: {fileID: 11400000, guid: 96efbb59c219f374b9ed167433356568, type: 2}
+  aimScreenShakeProperties: {fileID: 11400000, guid: eb81a7378a556d444812509854576112,
+    type: 2}
+  nonScreenShakeProperties: {fileID: 11400000, guid: eb81a7378a556d444812509854576112,
+    type: 2}

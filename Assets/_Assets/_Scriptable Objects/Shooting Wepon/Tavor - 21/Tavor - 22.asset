@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0509bbac517206944be167ad75db2a10, type: 3}
+  m_Name: Tavor - 22
+  m_EditorClassIdentifier: 
+  gunModel: {fileID: 2043800380, guid: ca44e0a05876c7d42823a65cca3d9abc, type: 3}
+  weponUiIcon: {fileID: 21300000, guid: 4ca239f3c455feb44bd8931f853c13b5, type: 3}
+  ammoConfig: {fileID: 11400000, guid: 235c80512c439f343b4c1651b0e6ddf0, type: 2}
+  trailConfig: {fileID: 11400000, guid: 33ddf2c6c32001542aa0e1207e5d5fd6, type: 2}
+  shootConfig: {fileID: 11400000, guid: 9529966a50f7d644cba6f0e45548b03d, type: 2}
+  attachmentConfig: {fileID: 11400000, guid: ad584aa587af712409fc25c332ff3a1a, type: 2}
+  gunType: 0
+  spawnPointOffset: {x: 0, y: 0.138, z: -0.003}
+  playerProfile:
+    username: Sam_1
+    level: 1
+    xp: 0
+    gunName: 0
+  accuracyStat: {fileID: 11400000, guid: 5d7a72fc4b5aa1547be2265140169c4f, type: 2}

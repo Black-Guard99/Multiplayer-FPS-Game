@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31882282d165a7b4eba2ae7f98626854, type: 3}
+  m_Name: Display Lg23
+  m_EditorClassIdentifier: 
+  gunSprite: {fileID: 21300000, guid: 16a08e2adbced444087d16c364fbb61b, type: 3}
+  gunName: Lg23 Shotgun
+  displayPrefabs: {fileID: 3411770731769079937, guid: b9842febd570b8a43865438305d867ff,
+    type: 3}
+  gunSo: {fileID: 11400000, guid: 881350ec77dbcde4a968f3b267f4f1ee, type: 2}

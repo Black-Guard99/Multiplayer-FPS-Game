@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0509bbac517206944be167ad75db2a10, type: 3}
+  m_Name: Glock
+  m_EditorClassIdentifier: 
+  gunModel: {fileID: 1432524432, guid: 52c4d0450953663428b0d67d59e90490, type: 3}
+  weponUiIcon: {fileID: 21300000, guid: 849f9cdf72c4d7b4c9d463cb1d96a6eb, type: 3}
+  ammoConfig: {fileID: 11400000, guid: a5d9f4e7fd74b0c4da83dd68dd8aa6e6, type: 2}
+  trailConfig: {fileID: 11400000, guid: 33ddf2c6c32001542aa0e1207e5d5fd6, type: 2}
+  shootConfig: {fileID: 11400000, guid: d18f049d56fc45349a0eea251ff82483, type: 2}
+  attachmentConfig: {fileID: 11400000, guid: 4b1d9c05cfb729f49bdc08df1599d4ac, type: 2}
+  gunType: 0
+  weponPositions: 1
+  spawnPointOffset: {x: 0, y: 0.135, z: 0}
+  playerProfile:
+    username: Sam_1
+    level: 1
+    xp: 0
+    gunName: Sam_1
+  accuracyStat: {fileID: 11400000, guid: f6a0cd254e5ee584eace0297bc7466aa, type: 2}
+  isSelected: 1

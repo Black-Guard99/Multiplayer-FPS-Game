@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08a606916b18b974bb94d44eb8800f1c, type: 3}
+  m_Name: ToDoMini data
+  m_EditorClassIdentifier: 
+  displayDensity: 1
+  keepCompletedTasks: 1
+  showCompletedTasks: 0
+  items:
+  - task: Shooting Button Fireing - Tap to Fire and Hold to fire Single Button.
+    isComplete: 0
+  - task: Slider for Leaning in the Aiming
+    isComplete: 0
+  - task: Create Wepon Using Scripts- 1. Shooting Wepons
+    isComplete: 0

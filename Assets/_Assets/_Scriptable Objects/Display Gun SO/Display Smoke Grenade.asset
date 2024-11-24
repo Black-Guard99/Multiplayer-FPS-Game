@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31882282d165a7b4eba2ae7f98626854, type: 3}
+  m_Name: Display Smoke Grenade
+  m_EditorClassIdentifier: 
+  gunSprite: {fileID: 21300000, guid: 20a6b939f1c13a643a74b558a6f7a6b6, type: 3}
+  gunName: Smoke Greande
+  displayPrefabs: {fileID: 5986600361064606177, guid: 97682a0e19bbbcf4dac7629ccf114926,
+    type: 3}
+  gunSo: {fileID: 11400000, guid: bd09c3d9dc84de240b9a10d47efcd6bb, type: 2}

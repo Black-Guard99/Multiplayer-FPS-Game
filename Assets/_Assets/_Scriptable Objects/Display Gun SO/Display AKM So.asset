@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31882282d165a7b4eba2ae7f98626854, type: 3}
+  m_Name: Display AKM So
+  m_EditorClassIdentifier: 
+  gunSprite: {fileID: 21300000, guid: 74bf7df38adeeab4891a10bcf11ac941, type: 3}
+  gunName: AKM
+  displayPrefabs: {fileID: 1219667401634856810, guid: 30c3e220ebf41dc4f936b43ba3665b79,
+    type: 3}
+  gunSo: {fileID: 11400000, guid: 900317593db42fc47833ed4206b08bed, type: 2}

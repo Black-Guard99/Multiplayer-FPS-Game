@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 909d8b1a182afaa4082efc60fe80f383, type: 3}
+  m_Name: Glock Damage
+  m_EditorClassIdentifier: 
+  statType: 0
+  maxStat: 80
+  minStat: 60
+  currentStatAmount: 75
+  normalized: 0.75
+  bodyDamageAmount: 25.5
+  headShotDamage: 50
+  damageCurve:
+    m_Mode: 1
+    m_CurveMultiplier: 1
+    m_CurveMin:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_CurveMax:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 80
+        inSlope: 30.235697
+        outSlope: 30.235697
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.055345964
+      - serializedVersion: 3
+        time: 1
+        value: 60
+        inSlope: 40.346375
+        outSlope: 40.346375
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.07294357
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ConstantMin: 0
+    m_ConstantMax: 0

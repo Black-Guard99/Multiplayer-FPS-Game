@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0509bbac517206944be167ad75db2a10, type: 3}
+  m_Name: Micro Uzi
+  m_EditorClassIdentifier: 
+  gunModel: {fileID: 500765162, guid: e924910a4c293934e926ec25ced62a17, type: 3}
+  weponUiIcon: {fileID: 21300000, guid: ea4763813fc034d40a26a6f1604cc96d, type: 3}
+  ammoConfig: {fileID: 11400000, guid: 9f2c5ad00a0ff7d42821136d644a837b, type: 2}
+  trailConfig: {fileID: 11400000, guid: 33ddf2c6c32001542aa0e1207e5d5fd6, type: 2}
+  shootConfig: {fileID: 11400000, guid: 460b3b2bb4e8a6945a8a1e0b8d68774a, type: 2}
+  attachmentConfig: {fileID: 11400000, guid: 39120099668e59a4aba58dc86646fdc8, type: 2}
+  gunType: 0
+  weponPositions: 0
+  spawnPointOffset: {x: 0, y: 0.095, z: -0.53}
+  playerProfile:
+    username: Abhi_99
+    spawnArea: 0
+    teamNumber: 0
+    level: 1
+    xp: 0
+    gunName: 
+  accuracyStat: {fileID: 11400000, guid: 2d2a7b3f468ba7d4da7b79f1815ada08, type: 2}

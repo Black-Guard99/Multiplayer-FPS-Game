@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e4ed679a06f1694d8caf21d83f9f1a7, type: 3}
+  m_Name: Smoke
+  m_EditorClassIdentifier: 
+  gunModel: {fileID: 5599806015855103408, guid: d7e30329a59892f4c9a12780b2742872,
+    type: 3}
+  weponUiIcon: {fileID: 21300000, guid: 20a6b939f1c13a643a74b558a6f7a6b6, type: 3}
+  ammoConfig: {fileID: 11400000, guid: 8bd41667930b8874c807bf143d15e73f, type: 2}
+  trailConfig: {fileID: 11400000, guid: 33ddf2c6c32001542aa0e1207e5d5fd6, type: 2}
+  shootConfig: {fileID: 11400000, guid: 0b7fb357db8a77549bd2a611d3fabe1e, type: 2}
+  attachmentConfig: {fileID: 0}
+  gunType: 3
+  weponPositions: 4
+  spawnPointOffset: {x: 0, y: 0.138, z: -0.037}
+  playerProfile:
+    username: abhi_234
+    level: 1
+    xp: 0
+    gunName: 
+  accuracyStat: {fileID: 11400000, guid: 2f48d97a9e2281042ac680b3c91a06bc, type: 2}
+  mass: 1
+  drag: 0.06
+  maxCookingTime: 5
+  force: 30
+  throwable: {fileID: -2806619064859316813, guid: 9e16c083f397b1849b3f6b17cd4df416,
+    type: 3}
+  currentThrowableType: 2
