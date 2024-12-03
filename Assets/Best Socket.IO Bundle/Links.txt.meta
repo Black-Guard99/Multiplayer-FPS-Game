@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 74fcc4ffb109d2f438fc50463936173a
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 268835
+  packageName: Best Socket.IO Bundle
+  packageVersion: 3.0.0
+  assetPath: Assets/Best Socket.IO Bundle/Links.txt
+  uploadId: 623301
