@@ -25,7 +25,7 @@ public class BulletCasing : MonoBehaviour, IPooledObject {
     }
     public void Ejject(Vector3 direction){
         rb.isKinematic = false;
-        rb.velocity = Vector3.zero;
+        rb.linearVelocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
         rb.AddForce(direction + Vector3.up * casingSpawnForce,ForceMode.Impulse);
         rb.AddTorque(Vector3.up * 5f,ForceMode.Impulse);

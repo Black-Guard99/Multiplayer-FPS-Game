@@ -1,5 +1,5 @@
 using System;
-using Cinemachine;
+using Unity.Cinemachine;
 using Photon.Pun;
 using UnityEngine;
 using GamerWolf.Utils;

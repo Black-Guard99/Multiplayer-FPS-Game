@@ -1,5 +1,5 @@
 using UnityEngine;
-using Cinemachine;
+using Unity.Cinemachine;
 using UnityEngine.UI;
 public class ScopeModel : MonoBehaviour {
     [SerializeField] private Transform lookAimPoint;

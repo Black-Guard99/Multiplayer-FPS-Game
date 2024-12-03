@@ -20,7 +20,7 @@ public class Molotove : ThrowableObject{
     private void OnCollisionEnter(Collision coli){
         if(canExplode){
             if(Physics.Raycast(transform.position + Vector3.up * .4f,Vector3.down,out RaycastHit hit,Mathf.Infinity,fireLayer,QueryTriggerInteraction.UseGlobal)){
-                rb.velocity = Vector3.zero;
+                rb.linearVelocity = Vector3.zero;
                 rb.angularVelocity = Vector3.zero;
                 rb.isKinematic = true;
                 ShowHideVisual(false);

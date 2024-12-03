@@ -17,9 +17,9 @@ public class ThrowableObject : MonoBehaviour {
     }
     public virtual void Throw(float throwForce,Vector3 forceDirection,float time,float drag,float mass,OffScreenIndicator offScreenIndicator){
         rb.mass = mass;
-        rb.drag = drag;
+        rb.linearDamping = drag;
         rb.isKinematic = false;
-        rb.velocity = Vector3.zero;
+        rb.linearVelocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
         rb.AddForce(forceDirection * throwForce,ForceMode.Impulse);
         rb.AddTorque(transform.right * throwForce,ForceMode.Impulse);

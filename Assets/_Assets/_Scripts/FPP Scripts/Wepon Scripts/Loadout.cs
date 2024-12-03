@@ -1,5 +1,5 @@
 using Photon.Pun;
-using Cinemachine;
+using Unity.Cinemachine;
 using UnityEngine;
 using System.Collections.Generic;
 using System;

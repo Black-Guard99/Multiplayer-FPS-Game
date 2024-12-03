@@ -1,6 +1,6 @@
 using TMPro;
 using Photon.Pun;
-using Cinemachine;
+using Unity.Cinemachine;
 using UnityEngine;
 using ExitGames.Client.Photon;
 using System.Collections.Generic;

@@ -1,6 +1,6 @@
 using TMPro;
 using Photon.Pun;
-using Cinemachine;
+using Unity.Cinemachine;
 using UnityEngine;
 using ExitGames.Client.Photon;
 using System.Collections.Generic;
@@ -582,7 +582,7 @@ public class NewPlayerMovement : MonoBehaviourPun,IPunObservable {
             }
             // If the coyote timer has not run out and our jump buffer has not run out and we our cool down (canJump) is now over
             if (coyoteTimeCounter > 0f && jumpBufferCounter > 0f && jumpCooldownOver) {
-                rb.velocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
+                rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z);
                 rb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
 
                 jumpCooldownOver = false;
@@ -602,7 +602,7 @@ public class NewPlayerMovement : MonoBehaviourPun,IPunObservable {
             input = input.normalized;
             Vector3 forwardVel = transform.forward * currentSpeed * input.z;
             Vector3 horizontalVel = transform.right * currentSpeed * input.x;
-            rb.velocity = horizontalVel + forwardVel + new Vector3(0, rb.velocity.y, 0);
+            rb.linearVelocity = horizontalVel + forwardVel + new Vector3(0, rb.linearVelocity.y, 0);
 
             //Extra gravity for more nicer jumping
             rb.AddForce(new Vector3(0, -extraGravity, 0), ForceMode.Impulse);

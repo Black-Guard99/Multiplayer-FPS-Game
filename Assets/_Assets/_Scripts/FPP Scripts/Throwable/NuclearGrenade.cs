@@ -15,7 +15,7 @@ public class NuclearGrenade : ThrowableObject {
     }
     public override void DestroyNow() {
         rb.isKinematic = true;
-        rb.velocity = Vector3.zero;
+        rb.linearVelocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
         transform.eulerAngles = Vector3.zero;
         ShowHideVisual(false);
